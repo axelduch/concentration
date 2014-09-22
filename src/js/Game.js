@@ -23,7 +23,6 @@ Game.prototype.reset = function () {
         child = this.getChildAt(i);
         if (child.reset) {
             child.reset();
-            console.log('reset :)');
         }
     }
 };
